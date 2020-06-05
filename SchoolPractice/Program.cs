@@ -6,7 +6,9 @@ namespace SchoolPractice
     {
         public static void Main(string[] args)
         {
-            // TODO: Instantiate your objects and test your exercise solutions with print statements here.
+            Student andyStudent = new Student("Andy", 1,1, 4.0);
+            Console.WriteLine(andyStudent.Name);
+
         }
     }
 }
